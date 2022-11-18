@@ -1,7 +1,6 @@
 package sensor
 
-type DHT struct {
-}
+type DHT struct{}
 
 func (d DHT) Celsius() int16 {
 	return 0
